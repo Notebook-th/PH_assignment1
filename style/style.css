@@ -7,6 +7,7 @@ header{
 
 }
 
+
 .hero .nav{
     display: flex;
     justify-content: space-between;
@@ -35,6 +36,11 @@ header{
     background-color: #4E47FF;
 
 }
+.nav button:hover{
+    background-color: rgb(151, 202, 245);
+    color: black;
+    cursor: pointer;
+}
 .hero .hero-msg{
     justify-content: center;
     align-items: center;
@@ -62,6 +68,11 @@ header{
     color: white;
     background-color: #4E47FF;
 }
+.hero-msg button:hover{
+    background-color: rgb(151, 202, 245);
+    color: black;
+    cursor: pointer;
+}
 .webflow{
     display: flex;
     justify-content: space-between;
@@ -88,6 +99,11 @@ header{
     border-style: none;
     color: white;
     background-color: #4E47FF;
+}
+.msgs button:hover{
+    background-color: rgb(151, 202, 245);
+    color: black;
+    cursor: pointer;
 }
 .webflow img{
     margin-right: 159px;
@@ -223,6 +239,11 @@ header{
     border-radius: 10px;
     margin-bottom: 20px ;
 }
+.tab button:hover{
+    background-color: rgb(151, 202, 245);
+    color: black;
+    cursor: pointer;
+}
 .tab img{
     border-radius: 48px;
 }
@@ -294,6 +315,11 @@ textarea{
     border-radius: 10px;
     margin-bottom: 20px ;
     margin-left: 80px;
+}
+.frm button:hover{
+    background-color: rgb(151, 202, 245);
+    color: black;
+    cursor: pointer;
 }
 .last-msg{
     align-items: center;
