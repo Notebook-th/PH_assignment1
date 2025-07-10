@@ -42,6 +42,7 @@ header{
 }
 .hero-msg{
     margin-top: 158px;
+   
 }
 
 .hero-msg p{
@@ -51,6 +52,7 @@ header{
 }
 .hero-msg button{
     margin-top: 37px;
+    margin-left: 633px;
     height: 48px;
     width: 174px;
     font-size: 16px;
@@ -148,7 +150,7 @@ header{
 }
 .cmnts{
     height: 243px;
-    width: 366.67px;
+    width: 322.67px;
     margin: 10px;
     padding: 20px;
     /* background-color: rgb(243, 241, 241); */
@@ -199,6 +201,7 @@ header{
     border-radius: 14px;
     border: 1px solid white;
    box-shadow: 1px 1px 16px rgb(223, 221, 221);
+   margin-bottom: 92.8px;
 }
 .tab h1{
     font-size: 50px;
@@ -222,4 +225,95 @@ header{
 }
 .tab img{
     border-radius: 48px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.cnct{
+     
+    text-align: left;
+    margin-top: 0;
+    padding: 0;
+}
+.cnct h1{
+    font-size: 97px;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 70px;
+}
+.frm form{
+    margin-left: 70px;
+    padding: 10px;
+}
+.frm form label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type="email"],input[type="text"]
+{
+    height: 70px;
+    width: 497px;
+    border-style: none;
+    box-shadow: 1px 1px 16px rgb(223, 221, 221);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+textarea{
+    height: 135px;
+    width: 497px;
+     border-style: none;
+    box-shadow: 1px 1px 16px rgb(223, 221, 221);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    resize: none;
+}
+::placeholder{
+     font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.frm button{
+    height: 62px;
+    width: 497px;
+    border-style: none;
+    color: white;
+    background-color: #4E47FF;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+    margin-left: 80px;
+}
+.last-msg{
+    align-items: center;
+    text-align: center;
+}
+.last-msg h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.last-msg p{
+    font-size: 16px;
+    margin-top: 0;
+    color: #8987a1 ;
+}
+.last-nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: #8987a1;
+    margin-bottom: 200px;
+    margin-top: 20px;
 }
