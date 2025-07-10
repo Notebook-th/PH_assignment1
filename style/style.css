@@ -144,7 +144,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 2px black;
+    /* box-shadow: 2px 2px 2px black; */
 }
 .cmnts{
     height: 243px;
@@ -180,4 +180,46 @@ header{
 }
 .person p span{
     color: #b3b3b3;
+}
+.fu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 137px;
+}
+.focus{
+    /* background-color: aliceblue; */
+    height: 696.77px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid white;
+   box-shadow: 1px 1px 16px rgb(223, 221, 221);
+}
+.tab h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.tab p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.tab button{
+    height: 48px;
+    width: 195px;
+    border-style: none;
+    color: white;
+    background-color: #4E47FF;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+}
+.tab img{
+    border-radius: 48px;
 }
