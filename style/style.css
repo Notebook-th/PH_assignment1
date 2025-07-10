@@ -298,9 +298,12 @@ textarea{
 .last-msg{
     align-items: center;
     text-align: center;
+    padding: 130px;
+    margin-top: 0;
 }
 .last-msg h1{
     font-size: 100px;
+    margin-top: 0;
     font-weight: 900;
     color: #4E47FF;
     margin-bottom: 0;
